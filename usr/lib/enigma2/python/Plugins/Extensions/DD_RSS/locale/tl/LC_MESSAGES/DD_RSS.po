@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Idagdag"
 
 msgid "Close"
-msgstr ""
+msgstr "Isara"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Tanggalin"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Nabigo ang pag-download: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "I-download ang timeout (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "I-edit"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Walang laman na tugon mula sa server"
 
 msgid "Error: {}"
 msgstr ""
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Nabigong i-parse ang RSS feed"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Nabigong i-parse ang XML file"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Matagumpay na na-import ang mga feed"
 
 msgid "Import"
-msgstr ""
+msgstr "Mag-import"
 
 msgid "Keyboard"
 msgstr ""
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Walang nakitang XML file sa /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "I-setup ang RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Nabigo ang pagsusuri sa pag-update!"

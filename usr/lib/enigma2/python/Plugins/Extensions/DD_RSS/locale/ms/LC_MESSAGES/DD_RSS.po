@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Tambah"
 
 msgid "Close"
-msgstr ""
+msgstr "tutup"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Padam"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Muat turun gagal: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Muat turun tamat masa (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Sunting"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Sambutan kosong daripada pelayan"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Ralat: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Gagal menghuraikan suapan RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Gagal menghuraikan fail XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Suapan berjaya diimport"
 
 msgid "Import"
 msgstr ""
 
 msgid "Keyboard"
-msgstr ""
+msgstr "papan kekunci"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Tiada fail XML ditemui di /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Sediakan RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Semakan kemas kini gagal!"

@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Aldoni"
 
 msgid "Close"
-msgstr ""
+msgstr "Fermu"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Forigi"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Elŝuto malsukcesis: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Elŝuta tempodaŭro (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redakti"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Malplena respondo de servilo"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Eraro: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Malsukcesis analizi RSS-fluon"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Malsukcesis analizi XML-dosieron"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Fluoj importitaj sukcese"
 
 msgid "Import"
-msgstr ""
+msgstr "Importi"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Klavaro"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Neniu XML-dosiero trovita ĉe /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Agordu RSS-FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Ĝisdatigkontrolo malsukcesis!"

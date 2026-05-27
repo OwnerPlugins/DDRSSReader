@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Add"
-msgstr ""
+msgstr "追加"
 
 msgid "Close"
-msgstr ""
+msgstr "近い"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "消去"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "ダウンロードに失敗しました: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "ダウンロードのタイムアウト (10 秒)"
 
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "サーバーからの空の応答"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "エラー： {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS フィードの解析に失敗しました"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XMLファイルの解析に失敗しました"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "フィードは正常にインポートされました"
 
 msgid "Import"
-msgstr ""
+msgstr "輸入"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "キーボード"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml に XML ファイルが見つかりません"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED 対 %s のセットアップ"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "更新チェックに失敗しました!"

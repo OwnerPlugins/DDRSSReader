@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Ongeza"
 
 msgid "Close"
-msgstr ""
+msgstr "Funga"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Futa"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Imeshindwa kupakua: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Muda wa upakuaji umekwisha (sekunde 10)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Hariri"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Jibu tupu kutoka kwa seva"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Hitilafu: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Imeshindwa kuchanganua mipasho ya RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Imeshindwa kuchanganua faili ya XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Milisho imeingizwa kwa mafanikio"
 
 msgid "Import"
-msgstr ""
+msgstr "Ingiza"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Kibodi"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Hakuna faili ya XML iliyopatikana katika /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Sanidi RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Ukaguzi wa kusasisha haukufaulu!"

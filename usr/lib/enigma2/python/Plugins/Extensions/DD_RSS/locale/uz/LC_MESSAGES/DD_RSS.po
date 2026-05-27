@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Qo'shish"
 
 msgid "Close"
-msgstr ""
+msgstr "Yopish"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Oʻchirish"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Yuklab olinmadi: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Yuklab olish vaqti tugashi (10 soniya)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Tahrirlash"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Serverdan boʻsh javob"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Xato: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS tasmasini tahlil qilib bo‘lmadi"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML faylni tahlil qilib bo‘lmadi"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Tasmalar muvaffaqiyatli import qilindi"
 
 msgid "Import"
 msgstr ""
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Klaviatura"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml da XML fayli topilmadi"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%s ni sozlash"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Yangilanish tekshirilmadi!"

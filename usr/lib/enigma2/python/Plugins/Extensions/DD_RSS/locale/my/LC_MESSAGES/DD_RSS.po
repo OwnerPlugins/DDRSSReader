@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "ထည့်ပါ။"
 
 msgid "Close"
-msgstr ""
+msgstr "ပိတ်လိုက်"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "ဖျက်ပါ။"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "ဒေါင်းလုဒ် မအောင်မြင်ပါ- {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "ဒေါင်းလုဒ်ဆွဲချိန် (၁၀ စက္ကန့်)"
 
 msgid "Edit"
-msgstr ""
+msgstr "တည်းဖြတ်ပါ။"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "ဆာဗာမှ တုံ့ပြန်မှု ဗလာ"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "အမှား- {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS ဖိဒ်ကို ခွဲခြမ်းစိတ်ဖြာရန် မအောင်မြင်ပါ။"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML ဖိုင်ကို ခွဲခြမ်းစိတ်ဖြာရန် မအောင်မြင်ပါ။"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "ဖိဒ်များကို အောင်မြင်စွာ တင်သွင်းခဲ့သည်။"
 
 msgid "Import"
-msgstr ""
+msgstr "သွင်းကုန်"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "ကီးဘုတ်"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml တွင် XML ဖိုင်ကို ရှာမတွေ့ပါ။"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%s ကို စနစ်ထည့်သွင်းပါ။"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "အပ်ဒိတ်စစ်ဆေးမှု မအောင်မြင်ပါ။"

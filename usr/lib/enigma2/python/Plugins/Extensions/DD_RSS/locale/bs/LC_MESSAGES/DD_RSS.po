@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Preuzimanje nije uspjelo: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Istek vremena za preuzimanje (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Prazan odgovor sa servera"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Greška: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Nije uspjelo raščlanjivanje RSS sadržaja"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Nije uspjelo raščlanjivanje XML datoteke"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Feedovi su uspješno uvezeni"
 
 msgid "Import"
-msgstr ""
+msgstr "Uvoz"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatura"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Nije pronađen XML fajl na /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Podešavanje RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Provjera ažuriranja nije uspjela!"

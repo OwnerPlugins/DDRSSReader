@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "ചേർക്കുക"
 
 msgid "Close"
-msgstr ""
+msgstr "അടയ്ക്കുക"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "ഇല്ലാതാക്കുക"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "ഡൗൺലോഡ് പരാജയപ്പെട്ടു: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "ഡൗൺലോഡ് ടൈംഔട്ട് (10സെ)"
 
 msgid "Edit"
-msgstr ""
+msgstr "എഡിറ്റ് ചെയ്യുക"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "സെർവറിൽ നിന്നുള്ള ശൂന്യമായ പ്രതികരണം"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "പിശക്: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS ഫീഡ് പാഴ്‌സ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML ഫയൽ പാഴ്‌സ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "ഫീഡുകൾ വിജയകരമായി ഇറക്കുമതി ചെയ്തു"
 
 msgid "Import"
-msgstr ""
+msgstr "ഇറക്കുമതി ചെയ്യുക"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "കീബോർഡ്"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml-ൽ XML ഫയലൊന്നും കണ്ടെത്തിയില്ല"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS ഫീഡ് v.%s സജ്ജീകരിക്കുക"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "അപ്‌ഡേറ്റ് പരിശോധന പരാജയപ്പെട്ടു!"

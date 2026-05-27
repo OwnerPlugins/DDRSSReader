@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "לייג"
 
 msgid "Close"
-msgstr ""
+msgstr "נאָענט"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "ויסמעקן"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "אראפקאפיע דורכפאַל: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "אראפקאפיע צייט (10 ס)"
 
 msgid "Edit"
-msgstr ""
+msgstr "רעדאַגירן"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "ליידיק ענטפער פון סערווער"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "טעות: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "ניט אַנדערש צו פּאַרסירן RSS פיטער"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "ניט אַנדערש צו פּאַרסירן XML טעקע"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "פידז ימפּאָרטיד הצלחה"
 
 msgid "Import"
-msgstr ""
+msgstr "אַרייַנפיר"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "קלאַוויאַטור"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "קיין קסמל טעקע געפֿונען אין /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "סעטאַפּ רסס פיטער וו.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "דערהייַנטיקן טשעק ניט אַנדערש!"

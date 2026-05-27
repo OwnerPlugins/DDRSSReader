@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Bæta við"
 
 msgid "Close"
-msgstr ""
+msgstr "Loka"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Eyða"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Niðurhal mistókst: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Tímamörk niðurhals (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Breyta"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Tómt svar frá þjóni"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Villa: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Mistókst að flokka RSS straum"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Mistókst að flokka XML skrá"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Straumar fluttir inn"
 
 msgid "Import"
-msgstr ""
+msgstr "Innflutningur"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Lyklaborð"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Engin XML skrá fannst á /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Setja upp RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Uppfærsluathugun mistókst!"

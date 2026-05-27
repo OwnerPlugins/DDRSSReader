@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Voeg by"
 
 msgid "Close"
-msgstr ""
+msgstr "Maak toe"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Vee uit"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Aflaai het misluk: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Aflaai-time-out (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Wysig"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Leë reaksie van bediener"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Fout: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Kon nie RSS-stroom ontleed nie"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Kon nie XML-lêer ontleed nie"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Voere is suksesvol ingevoer"
 
 msgid "Import"
-msgstr ""
+msgstr "Invoer"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Sleutelbord"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Geen XML-lêer gevind by /tmp/feeds.xml nie"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Stel RSS-VOER v.%s op"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Opdateerkontrole het misluk!"

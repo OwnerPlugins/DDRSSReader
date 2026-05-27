@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Agregar"
 
 msgid "Close"
-msgstr ""
+msgstr "Cerca"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Borrar"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Error de descarga: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Tiempo de espera de descarga (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Respuesta vacía del servidor"
 
 msgid "Error: {}"
 msgstr ""
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "No se pudo analizar la fuente RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "No se pudo analizar el archivo XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Feeds importados correctamente"
 
 msgid "Import"
-msgstr ""
+msgstr "Importar"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Teclado"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "No se encontró ningún archivo XML en /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Configurar RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "¡La verificación de actualización falló!"

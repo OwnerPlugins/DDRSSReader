@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "לְהוֹסִיף"
 
 msgid "Close"
-msgstr ""
+msgstr "לִסְגוֹר"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "לִמְחוֹק"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "ההורדה נכשלה: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "פסק זמן להורדה (10 שניות)"
 
 msgid "Edit"
-msgstr ""
+msgstr "לַעֲרוֹך"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "תגובה ריקה מהשרת"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "שגיאה: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "ניתוח הזנת RSS נכשל"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "ניתוח קובץ XML נכשל"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "העדכונים יובאו בהצלחה"
 
 msgid "Import"
-msgstr ""
+msgstr "יְבוּא"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "מִקלֶדֶת"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "לא נמצא קובץ XML ב-/tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "הגדר עדכון RSS v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "בדיקת העדכון נכשלה!"

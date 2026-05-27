@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "បន្ថែម"
 
 msgid "Close"
-msgstr ""
+msgstr "បិទ"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "លុប"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "ការទាញយកបរាជ័យ៖ {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "អស់ពេលទាញយក (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "កែសម្រួល"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "ការឆ្លើយតបទទេពីម៉ាស៊ីនមេ"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "កំហុស៖ {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "បរាជ័យក្នុងការញែកព័ត៌មាន RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "បានបរាជ័យក្នុងការញែកឯកសារ XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "មតិព័ត៌មានបាននាំចូលដោយជោគជ័យ"
 
 msgid "Import"
-msgstr ""
+msgstr "នាំចូល"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "ក្ដារចុច"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "រកមិនឃើញឯកសារ XML នៅ /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "ដំឡើង RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "ការ​ពិនិត្យ​អាប់ដេត​បាន​បរាជ័យ!"

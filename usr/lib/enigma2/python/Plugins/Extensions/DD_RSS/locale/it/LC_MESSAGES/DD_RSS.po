@@ -17,52 +17,52 @@ msgstr ""
 "X-Poedit-SearchPath-0: plugin.py\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Aggiungere"
 
 msgid "Close"
-msgstr ""
+msgstr "Vicino"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Eliminare"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Download non riuscito: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Timeout download (10 secondi)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Modificare"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Risposta vuota dal server"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Errore: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Impossibile analizzare il feed RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Impossibile analizzare il file XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Feed importati correttamente"
 
 msgid "Import"
-msgstr ""
+msgstr "Importare"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastiera"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Nessun file XML trovato in /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Imposta FEED RSS v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Controllo aggiornamento fallito!"

@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Ychwanegu"
 
 msgid "Close"
-msgstr ""
+msgstr "Cau"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Dileu"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Wedi methu llwytho i lawr: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Goramser lawrlwytho (10au)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Golygu"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Ymateb gwag gan y gweinydd"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Gwall: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Wedi methu dosrannu porthiant RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Wedi methu dosrannu ffeil XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Mewnforiwyd porthiannau yn llwyddiannus"
 
 msgid "Import"
-msgstr ""
+msgstr "Mewnforio"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Bysellfwrdd"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Ni chanfuwyd ffeil XML yn /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Gosod RSS feed v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Methodd y gwiriad diweddaru!"

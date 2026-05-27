@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "เพิ่ม"
 
 msgid "Close"
-msgstr ""
+msgstr "ปิด"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "ลบ"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "การดาวน์โหลดล้มเหลว: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "หมดเวลาการดาวน์โหลด (10 วินาที)"
 
 msgid "Edit"
-msgstr ""
+msgstr "แก้ไข"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "การตอบกลับว่างเปล่าจากเซิร์ฟเวอร์"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "ข้อผิดพลาด: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "ไม่สามารถแยกวิเคราะห์ฟีด RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "ไม่สามารถแยกวิเคราะห์ไฟล์ XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "นำเข้าฟีดเรียบร้อยแล้ว"
 
 msgid "Import"
-msgstr ""
+msgstr "นำเข้า"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "คีย์บอร์ด"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "ไม่พบไฟล์ XML ที่ /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "ตั้งค่า RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "การตรวจสอบการอัปเดตล้มเหลว!"

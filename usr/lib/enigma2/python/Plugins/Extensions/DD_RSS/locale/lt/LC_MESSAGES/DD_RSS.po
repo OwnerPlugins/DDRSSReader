@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Pridėti"
 
 msgid "Close"
-msgstr ""
+msgstr "Uždaryti"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Ištrinti"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Atsisiuntimas nepavyko: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Atsisiuntimo skirtasis laikas (10 s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redaguoti"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Tuščias atsakymas iš serverio"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Klaida: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Nepavyko išanalizuoti RSS informacijos santraukos"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Nepavyko išanalizuoti XML failo"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Sklaidos kanalai sėkmingai importuoti"
 
 msgid "Import"
-msgstr ""
+msgstr "Importuoti"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Klaviatūra"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "XML failas nerastas /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Įdiegti RSS teikimo kanalą v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Atnaujinimo patikrinimas nepavyko!"

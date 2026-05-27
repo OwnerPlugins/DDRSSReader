@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Tillägga"
 
 msgid "Close"
-msgstr ""
+msgstr "Nära"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Radera"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Nedladdning misslyckades: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Tidsgräns för nedladdning (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redigera"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Tomt svar från servern"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Fel: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Det gick inte att analysera RSS-flöde"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Det gick inte att analysera XML-filen"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Flöden har importerats"
 
 msgid "Import"
-msgstr ""
+msgstr "Importera"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tangentbord"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Ingen XML-fil hittades på /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Ställ in RSS-FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Uppdateringskontrollen misslyckades!"

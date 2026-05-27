@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "थप्नुहोस्"
 
 msgid "Close"
-msgstr ""
+msgstr "बन्द गर्नुहोस्"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "मेट्नुहोस्"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "डाउनलोड असफल भयो: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "डाउनलोड टाइमआउट (१० सेकेन्ड)"
 
 msgid "Edit"
-msgstr ""
+msgstr "सम्पादन गर्नुहोस्"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "सर्भरबाट खाली प्रतिक्रिया"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "त्रुटि: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS फिड पार्स गर्न असफल भयो"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML फाइल पार्स गर्न असफल भयो"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "फिडहरू सफलतापूर्वक आयात गरियो"
 
 msgid "Import"
-msgstr ""
+msgstr "आयात गर्नुहोस्"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "किबोर्ड"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml मा कुनै XML फाइल फेला परेन"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v. %s सेटअप गर्नुहोस्"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "अपडेट जाँच असफल भयो!"

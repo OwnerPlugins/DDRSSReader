@@ -20,49 +20,49 @@ msgid "Add"
 msgstr ""
 
 msgid "Close"
-msgstr ""
+msgstr "Slute"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Wiskje"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Download mislearre: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Download time-out (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Bewurkje"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Lege antwurd fan tsjinner"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Flater: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "It parsearjen fan RSS-feed mislearre"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "It parsearjen fan XML-bestân is mislearre"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Feeds mei súkses ymportearre"
 
 msgid "Import"
-msgstr ""
+msgstr "Ymport"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Toetseboerd"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Gjin XML-bestân fûn by /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED ynstelle v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Update kontrôle mislearre!"

@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "اضافه کنید"
 
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "حذف کنید"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "دانلود انجام نشد: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "توقف دانلود (10 ثانیه)"
 
 msgid "Edit"
-msgstr ""
+msgstr "ویرایش کنید"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "پاسخ خالی از سرور"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "خطا: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "تجزیه فید RSS انجام نشد"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "فایل XML تجزیه نشد"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "فیدها با موفقیت وارد شدند"
 
 msgid "Import"
-msgstr ""
+msgstr "واردات"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "صفحه کلید"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "هیچ فایل XML در /tmp/feeds.xml یافت نشد"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "راه اندازی RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "بررسی به‌روزرسانی انجام نشد!"

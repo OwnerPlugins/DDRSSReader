@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Cuir ris"
 
 msgid "Close"
-msgstr ""
+msgstr "Dùin"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Sguab às"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Dh'fhàillig an luchdachadh sìos: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Luchdaich sìos timeout (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Deasaich"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Freagairt falamh bhon fhrithealaiche"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Mearachd: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Dh'fhàillig parsadh inbhir RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Dh'fhàillig parsadh an fhaidhle XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Feeds air an toirt a-steach gu soirbheachail"
 
 msgid "Import"
 msgstr ""
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Meur-chlàr"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Cha deach faidhle XML a lorg aig /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Suidhich RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Dh'fhàillig an t-seic ùrachadh!"

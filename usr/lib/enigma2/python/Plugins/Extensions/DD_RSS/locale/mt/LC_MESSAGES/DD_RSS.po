@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Żid"
 
 msgid "Close"
-msgstr ""
+msgstr "Agħlaq"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Ħassar"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "It-tniżżil falla: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Timeout tat-tniżżil (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Editja"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Reazzjoni vojta mis-server"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Żball: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Naqset milli parse RSS feed"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Naqas milli jiġi analizzat il-fajl XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Għalf importat b'suċċess"
 
 msgid "Import"
-msgstr ""
+msgstr "Importazzjoni"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastiera"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "L-ebda fajl XML ma nstab f'/tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Il-kontroll tal-aġġornament falla!"

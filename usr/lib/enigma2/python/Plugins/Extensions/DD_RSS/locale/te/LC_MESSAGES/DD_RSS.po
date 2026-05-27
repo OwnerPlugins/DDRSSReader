@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "జోడించు"
 
 msgid "Close"
-msgstr ""
+msgstr "మూసివేయి"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "తొలగించు"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "డౌన్‌లోడ్ విఫలమైంది: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "డౌన్‌లోడ్ గడువు ముగిసింది (10సె)"
 
 msgid "Edit"
-msgstr ""
+msgstr "సవరించు"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "సర్వర్ నుండి ఖాళీ ప్రతిస్పందన"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "లోపం: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS ఫీడ్‌ని అన్వయించడంలో విఫలమైంది"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML ఫైల్‌ని అన్వయించడంలో విఫలమైంది"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "ఫీడ్‌లు విజయవంతంగా దిగుమతి చేయబడ్డాయి"
 
 msgid "Import"
-msgstr ""
+msgstr "దిగుమతి"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "కీబోర్డ్"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml వద్ద XML ఫైల్ కనుగొనబడలేదు"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%sని సెటప్ చేయండి"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "నవీకరణ తనిఖీ విఫలమైంది!"

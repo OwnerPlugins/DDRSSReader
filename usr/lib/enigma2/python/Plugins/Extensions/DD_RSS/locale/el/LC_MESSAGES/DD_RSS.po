@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Προσθέτω"
 
 msgid "Close"
-msgstr ""
+msgstr "Κοντά"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Διαγράφω"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Η λήψη απέτυχε: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Λήξη χρονικού ορίου λήψης (10 δευτερόλεπτα)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Εκδίδω"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Κενή απάντηση από τον διακομιστή"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Σφάλμα: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Απέτυχε η ανάλυση της ροής RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Απέτυχε η ανάλυση του αρχείου XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Οι ροές εισήχθησαν με επιτυχία"
 
 msgid "Import"
-msgstr ""
+msgstr "Εισαγωγή"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Πληκτρολόγιο"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Δεν βρέθηκε αρχείο XML στο /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Ρύθμιση RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Ο έλεγχος ενημέρωσης απέτυχε!"

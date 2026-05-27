@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Pievienot"
 
 msgid "Close"
-msgstr ""
+msgstr "Aizvērt"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Dzēst"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Lejupielāde neizdevās: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Lejupielādes taimauts (10 s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Rediģēt"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Tukša atbilde no servera"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Kļūda: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Neizdevās parsēt RSS plūsmu"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Neizdevās parsēt XML failu"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Plūsmas veiksmīgi importētas"
 
 msgid "Import"
-msgstr ""
+msgstr "Importēt"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatūra"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Vietnē /tmp/feeds.xml nav atrasts neviens XML fails"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Iestatīt RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Atjaunināšanas pārbaude neizdevās!"

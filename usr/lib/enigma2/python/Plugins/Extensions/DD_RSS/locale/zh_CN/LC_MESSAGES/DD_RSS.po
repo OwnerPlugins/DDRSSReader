@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "下载失败：{}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "下载超时（10s）"
 
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "来自服务器的空响应"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "错误： {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "无法解析 RSS 提要"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "无法解析 XML 文件"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Feed 导入成功"
 
 msgid "Import"
-msgstr ""
+msgstr "进口"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "键盘"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "在 /tmp/feeds.xml 中找不到 XML 文件"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "设置 RSS 提要 v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "更新检查失败！"

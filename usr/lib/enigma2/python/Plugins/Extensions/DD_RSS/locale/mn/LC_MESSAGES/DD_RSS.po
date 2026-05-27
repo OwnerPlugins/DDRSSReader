@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Нэмэх"
 
 msgid "Close"
-msgstr ""
+msgstr "Хаах"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Устгах"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Татаж авч чадсангүй: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Татаж авах завсарлага (10 секунд)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Засварлах"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Серверээс хоосон хариулт"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Алдаа: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS хангамжийг задлан шинжилж чадсангүй"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML файлыг задлан шинжилж чадсангүй"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Мэдээллийг амжилттай импортоллоо"
 
 msgid "Import"
-msgstr ""
+msgstr "Импорт"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Гар"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml дээр XML файл олдсонгүй"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%s-г тохируулна уу"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Шинэчлэлтийг шалгаж чадсангүй!"

@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Shtoni"
 
 msgid "Close"
-msgstr ""
+msgstr "Mbylle"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Fshije"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Shkarkimi dështoi: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Koha e shkarkimit (10 sekonda)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redakto"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Përgjigje boshe nga serveri"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Gabim: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Dështoi në analizimin e furnizimit RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Analizimi i skedarit XML dështoi"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Furnizimet u importuan me sukses"
 
 msgid "Import"
-msgstr ""
+msgstr "Importi"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastierë"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Nuk u gjet asnjë skedar XML në /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Konfiguro RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Kontrolli i përditësimit dështoi!"

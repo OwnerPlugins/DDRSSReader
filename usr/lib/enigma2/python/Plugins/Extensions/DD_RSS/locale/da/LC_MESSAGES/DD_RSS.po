@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Tilføje"
 
 msgid "Close"
-msgstr ""
+msgstr "Tæt"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Slet"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Download mislykkedes: {}"
 
 msgid "Download timeout (10s)"
 msgstr ""
 
 msgid "Edit"
-msgstr ""
+msgstr "Redigere"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Tomt svar fra server"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Fejl: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Kunne ikke parse RSS-feed"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Kunne ikke parse XML-fil"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Feeds blev importeret"
 
 msgid "Import"
-msgstr ""
+msgstr "Importere"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatur"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Ingen XML-fil fundet på /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Opsætning af RSS-FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Opdateringstjek mislykkedes!"

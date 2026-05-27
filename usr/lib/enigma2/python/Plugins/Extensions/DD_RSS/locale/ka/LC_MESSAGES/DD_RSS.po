@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "დამატება"
 
 msgid "Close"
-msgstr ""
+msgstr "დახურვა"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "ჩამოტვირთვა ვერ მოხერხდა: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "ჩამოტვირთვის ვადაა (10 წმ)"
 
 msgid "Edit"
-msgstr ""
+msgstr "რედაქტირება"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "ცარიელი პასუხი სერვერიდან"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "შეცდომა: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS არხის გაანალიზება ვერ მოხერხდა"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML ფაილის გაანალიზება ვერ მოხერხდა"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "არხები წარმატებით იმპორტირებულია"
 
 msgid "Import"
-msgstr ""
+msgstr "იმპორტი"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "კლავიატურა"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "ვერ მოიძებნა XML ფაილი /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%s-ის დაყენება"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "განახლების შემოწმება ვერ მოხერხდა!"

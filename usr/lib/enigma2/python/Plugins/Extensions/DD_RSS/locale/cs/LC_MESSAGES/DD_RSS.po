@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
 msgid "Close"
-msgstr ""
+msgstr "Blízko"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Vymazat"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Stahování se nezdařilo: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Časový limit stahování (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Upravit"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Prázdná odpověď ze serveru"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Chyba: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Nepodařilo se analyzovat zdroj RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Analýza souboru XML se nezdařila"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Zdroje byly úspěšně importovány"
 
 msgid "Import"
-msgstr ""
+msgstr "Importovat"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Klávesnice"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Na adrese /tmp/feeds.xml nebyl nalezen žádný soubor XML"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Nastavení RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Kontrola aktualizace se nezdařila!"

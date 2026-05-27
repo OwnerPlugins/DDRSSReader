@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Afegeix"
 
 msgid "Close"
-msgstr ""
+msgstr "Tancar"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Suprimeix"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "La baixada ha fallat: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Temps d'espera de baixada (10 s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Edita"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Resposta buida del servidor"
 
 msgid "Error: {}"
 msgstr ""
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "No s'ha pogut analitzar el feed RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "No s'ha pogut analitzar el fitxer XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Els canals s'han importat correctament"
 
 msgid "Import"
-msgstr ""
+msgstr "Importar"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Teclat"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "No s'ha trobat cap fitxer XML a /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Configurar RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "La comprovació d'actualització ha fallat!"

@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "አክል"
 
 msgid "Close"
-msgstr ""
+msgstr "ገጠመ"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "ሰርዝ"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "ማውረድ አልተሳካም፦ {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "የማውረድ ጊዜ አልቋል (10 ሰ)"
 
 msgid "Edit"
-msgstr ""
+msgstr "አርትዕ"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "ከአገልጋይ ባዶ ምላሽ"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "ስህተት፡ {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS ምግብን መተንተን አልተሳካም።"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "የኤክስኤምኤል ፋይልን መተንተን አልተሳካም።"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "ምግቦች በተሳካ ሁኔታ ገብተዋል።"
 
 msgid "Import"
-msgstr ""
+msgstr "አስመጣ"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "የቁልፍ ሰሌዳ"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "በ /tmp/feeds.xml ላይ ምንም የኤክስኤምኤል ፋይል አልተገኘም።"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%s ያዋቅሩ"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "የዝማኔ ፍተሻ አልተሳካም!"

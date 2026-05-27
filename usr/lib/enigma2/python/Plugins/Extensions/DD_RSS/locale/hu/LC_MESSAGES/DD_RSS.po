@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Hozzáadás"
 
 msgid "Close"
-msgstr ""
+msgstr "Közeli"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Töröl"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Sikertelen letöltés: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Letöltési időtúllépés (10 mp)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Szerkesztés"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Üres válasz a szervertől"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Hiba: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Nem sikerült az RSS-hírcsatorna elemzése"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Nem sikerült az XML-fájl elemzése"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "A hírcsatornák sikeresen importálva"
 
 msgid "Import"
-msgstr ""
+msgstr "Importálás"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Billentyűzet"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Nem található XML-fájl a /tmp/feeds.xml fájlban"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%s beállítása"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "A frissítés ellenőrzése sikertelen!"

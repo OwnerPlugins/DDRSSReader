@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Илова"
 
 msgid "Close"
-msgstr ""
+msgstr "Пӯшед"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Нобуд кунед"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Зеркашӣ ноком шуд: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Вақти фарогирии зеркашӣ (10 сония)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Таҳрир"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Ҷавоби холӣ аз сервер"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Хатогӣ: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Таҳлили канали RSS муяссар нашуд"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Таҳлили файли XML ноком шуд"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Ғизоҳо бомуваффақият ворид карда шуданд"
 
 msgid "Import"
-msgstr ""
+msgstr "Воридот"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Клавиатура"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Дар /tmp/feeds.xml ягон файли XML ёфт нашуд"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%s насб кунед"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Санҷиши навсозӣ ноком шуд!"

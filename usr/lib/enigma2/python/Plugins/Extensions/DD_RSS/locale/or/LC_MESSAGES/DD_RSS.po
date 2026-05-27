@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "ଯୋଡନ୍ତୁ |"
 
 msgid "Close"
-msgstr ""
+msgstr "ବନ୍ଦ"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "ବିଲୋପ କରନ୍ତୁ |"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "ଡାଉନଲୋଡ୍ ବିଫଳ: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "ସମୟ ସମାପ୍ତ କରନ୍ତୁ (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "ସଂପାଦନା କରନ୍ତୁ |"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "ସର୍ଭରରୁ ଖାଲି ପ୍ରତିକ୍ରିୟା |"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "ତ୍ରୁଟି: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS ଫିଡ୍ ବିଶ୍ଳେଷଣ କରିବାରେ ବିଫଳ |"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML ଫାଇଲ୍ ବିଶ୍ଳେଷଣ କରିବାରେ ବିଫଳ |"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "ସଫଳତାର ସହିତ ଆମଦାନୀ ହୋଇଥିବା ଫିଡ୍ |"
 
 msgid "Import"
-msgstr ""
+msgstr "ଆମଦାନୀ କରନ୍ତୁ |"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "କୀବୋର୍ଡ୍ |"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/Tmp/feeds.xml ରେ କ X ଣସି XML ଫାଇଲ ମିଳିଲା ନାହିଁ |"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED ବନାମ% s ସେଟଅପ୍ କରନ୍ତୁ |"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "ଅଦ୍ୟତନ ଯାଞ୍ଚ ବିଫଳ ହେଲା!"

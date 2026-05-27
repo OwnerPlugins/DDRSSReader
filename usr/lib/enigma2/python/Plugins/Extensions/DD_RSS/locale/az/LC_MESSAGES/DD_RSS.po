@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "əlavə et"
 
 msgid "Close"
-msgstr ""
+msgstr "Bağlayın"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Endirmə alınmadı: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Endirmə fasiləsi (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redaktə et"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Serverdən boş cavab"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Xəta: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS lentini təhlil etmək alınmadı"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML faylını təhlil etmək alınmadı"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Lentlər uğurla idxal edildi"
 
 msgid "Import"
-msgstr ""
+msgstr "İdxal"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Klaviatura"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml ünvanında heç bir XML faylı tapılmadı"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%s qurun"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Yeniləmə yoxlaması alınmadı!"

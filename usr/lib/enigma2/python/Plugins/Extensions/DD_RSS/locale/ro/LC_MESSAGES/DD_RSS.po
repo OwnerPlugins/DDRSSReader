@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Adăuga"
 
 msgid "Close"
-msgstr ""
+msgstr "Aproape"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Şterge"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Descărcarea eșuată: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Timeout pentru descărcare (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Edita"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Răspuns gol de la server"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Eroare: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Nu s-a putut analiza fluxul RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Nu s-a putut analiza fișierul XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Fluxuri importate cu succes"
 
 msgid "Import"
 msgstr ""
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatura"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Nu s-a găsit niciun fișier XML la /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Configurați RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Verificarea actualizării a eșuat!"

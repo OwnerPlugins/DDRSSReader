@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Cuir"
 
 msgid "Close"
-msgstr ""
+msgstr "Dún"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Scrios"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Theip ar an íoslódáil: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Teorainn ama íoslódála (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Cuir in eagar"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Freagra folamh ón bhfreastalaí"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Earráid: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Theip ar pharsáil fotha RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Theip ar pharsáil an chomhaid XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Fothaí allmhairithe go rathúil"
 
 msgid "Import"
-msgstr ""
+msgstr "Iompórtáil"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Méarchlár"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Níor aimsíodh aon chomhad XML ag /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Socrú Fotha RSS v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Theip ar sheiceáil nuashonraithe!"

@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Eklemek"
 
 msgid "Close"
-msgstr ""
+msgstr "Kapalı"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Silmek"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "İndirme başarısız oldu: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "İndirme zaman aşımı (10s)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Düzenlemek"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Sunucudan boş yanıt"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Hata: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "RSS yayını ayrıştırılamadı"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "XML dosyası ayrıştırılamadı"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Feed'ler başarıyla içe aktarıldı"
 
 msgid "Import"
-msgstr ""
+msgstr "İçe aktarmak"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Klavye"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml dosyasında XML dosyası bulunamadı"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "RSS FEED v.%s kurulumu"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Güncelleme kontrolü başarısız oldu!"

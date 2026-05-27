@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "يضيف"
 
 msgid "Close"
-msgstr ""
+msgstr "يغلق"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "يمسح"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "فشل التنزيل: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "مهلة التنزيل (10 ثوانٍ)"
 
 msgid "Edit"
-msgstr ""
+msgstr "يحرر"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "استجابة فارغة من الخادم"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "خطأ: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "فشل في تحليل موجز RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "فشل في تحليل ملف XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "تم استيراد الخلاصات بنجاح"
 
 msgid "Import"
-msgstr ""
+msgstr "يستورد"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "لوحة المفاتيح"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "لم يتم العثور على ملف XML في /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "إعداد موجز RSS v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "فشل التحقق من التحديث!"

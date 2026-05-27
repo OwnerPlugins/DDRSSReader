@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Thêm vào"
 
 msgid "Close"
-msgstr ""
+msgstr "Đóng"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Xóa bỏ"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Tải xuống không thành công: {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Thời gian chờ tải xuống (10 giây)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Biên tập"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Phản hồi trống từ máy chủ"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Lỗi: {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Không thể phân tích nguồn cấp dữ liệu RSS"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Không thể phân tích cú pháp tệp XML"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Nguồn cấp dữ liệu đã được nhập thành công"
 
 msgid "Import"
-msgstr ""
+msgstr "Nhập khẩu"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Bàn phím"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "Không tìm thấy tệp XML nào tại /tmp/feeds.xml"
 
 msgid "Save"
 msgstr "Salva"
@@ -72,7 +72,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Thiết lập RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -81,4 +81,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Kiểm tra cập nhật không thành công!"

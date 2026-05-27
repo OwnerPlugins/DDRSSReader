@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add"
-msgstr ""
+msgstr "Ավելացնել"
 
 msgid "Close"
-msgstr ""
+msgstr "Փակել"
 
 msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Delete"
-msgstr ""
+msgstr "Ջնջել"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr "Vuoi installare l'aggiornamento ( %s ) ora?"
 
 msgid "Download failed: {}"
-msgstr ""
+msgstr "Ներբեռնումը ձախողվեց՝ {}"
 
 msgid "Download timeout (10s)"
-msgstr ""
+msgstr "Ներբեռնման դադար (10 վրկ)"
 
 msgid "Edit"
-msgstr ""
+msgstr "Խմբագրել"
 
 msgid "Empty response from server"
-msgstr ""
+msgstr "Դատարկ պատասխան սերվերից"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Սխալ՝ {}"
 
 msgid "Failed to parse RSS feed"
-msgstr ""
+msgstr "Չհաջողվեց վերլուծել RSS հոսքը"
 
 msgid "Failed to parse XML file"
-msgstr ""
+msgstr "Չհաջողվեց վերլուծել XML ֆայլը"
 
 msgid "Feeds imported successfully"
-msgstr ""
+msgstr "Հոսքերը հաջողությամբ ներմուծվեցին"
 
 msgid "Import"
-msgstr ""
+msgstr "Ներմուծում"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Ստեղնաշար"
 
 msgid "No XML file found at /tmp/feeds.xml"
-msgstr ""
+msgstr "/tmp/feeds.xml-ում XML ֆայլ չի գտնվել"
 
 msgid "Save"
 msgstr "Salva"
@@ -71,7 +71,7 @@ msgid "Select"
 msgstr "Seleziona"
 
 msgid "Setup RSS FEED v.%s"
-msgstr ""
+msgstr "Կարգավորեք RSS FEED v.%s"
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -80,4 +80,4 @@ msgid "Update Aborted!"
 msgstr "Aggiornamento annullato!"
 
 msgid "Update check failed!"
-msgstr ""
+msgstr "Թարմացման ստուգումը ձախողվեց:"
