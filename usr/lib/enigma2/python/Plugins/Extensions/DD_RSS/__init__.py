@@ -103,7 +103,7 @@ def _(txt):
         return translated
     else:
         # print(("[%s] fallback to default translation for %s" %
-              # (PluginLanguageDomain, txt)))
+        # (PluginLanguageDomain, txt)))
         return gettext.gettext(txt)
 
 
