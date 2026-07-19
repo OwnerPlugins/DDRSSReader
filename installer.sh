@@ -1,8 +1,8 @@
 #!/bin/bash
 ## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/Belfagor2005/DDRSSReader/main/installer.sh -O - | /bin/sh
 
-version='1.0'
-changelog='Recoded and porting to Python3\nAdd AI Translate'
+version='1.1'
+changelog='Fixed Linuxsat rss feeds'
 
 TMPPATH=/tmp/DDRSSReader-install
 FILEPATH=/tmp/DDRSSReader-main.tar.gz

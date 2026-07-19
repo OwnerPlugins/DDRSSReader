@@ -37,14 +37,15 @@ from collections import deque
 from datetime import datetime
 from urllib.request import urlopen, Request
 from distutils.version import LooseVersion
-
+import xml.etree.ElementTree as ET
 from . import (
-    _,
+    _ as tr,
     __version__,
     b64decoder,
     descplug,
     installer_url,
-    developer_url
+    developer_url,
+    HEADERS
 )
 from .Console import Console as xConsole
 from .google_translate import trans
@@ -127,9 +128,10 @@ def skrati(d0, zl):
     return zl[d0:len(zl)]
 
 
+# ----------------------------------------------------------------------
+# UnesiPod - Add/Edit RSS feed
+# ----------------------------------------------------------------------
 class UnesiPod(Screen):
-    """Add or edit an RSS feed."""
-
     def __init__(self, session, edit_name=None, edit_url=None):
         self.session = session
         self.edit_name = edit_name
@@ -151,7 +153,24 @@ class UnesiPod(Screen):
                     </widget>
                     <widget source="session.VideoPicture" render="Pig" position="51,101" zPosition="20" size="492,280" backgroundColor="transparent" transparent="0" />
                 </screen>'''
+        elif screen_width == 2560:
+            self.skin = '''
+                <screen name="UnesiPod" position="center,center" size="2560,1440" title="RSS FEED" flags="wfNoBorder">
+                    <widget name="info" position="1290,50" zPosition="4" size="1160,53" font="Regular;47" backgroundColor="#050c101b" foregroundColor="white" transparent="1" valign="center" />
+                    <ePixmap position="center,center" size="2560,1440" zPosition="-1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DD_RSS/images/RSS_FEED+1.png" scale="1" transparent="1" alphatest="blend" />
+                    <widget name="liste" itemHeight="73" font="Regular; 48" position="1227,160" size="1240,1027" zPosition="2" transparent="1" />
+                    <widget name="opisi" font="Regular; 45" position="81,989" size="1031,375" zPosition="2" transparent="1" />
+                    <widget source="key_red" render="Label" position="1279,1359" size="333,60" zPosition="4" font="Regular; 37" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+                    <widget source="key_green" render="Label" position="1563,1359" size="333,60" zPosition="4" font="Regular; 37" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+                    <widget source="key_blue" render="Label" position="2112,1360" size="333,60" zPosition="4" font="Regular; 40" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+                    <widget source="key_yellow" render="Label" position="1824,1360" size="333,60" zPosition="4" font="Regular; 40" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+                    <widget font="Regular; 53" halign="center" position="92,40" render="Label" size="999,93" source="global.CurrentTime" transparent="1">
+                        <convert type="ClockToText">Format:%a %d.%m. %Y | %H:%M</convert>
+                    </widget>
+                    <widget source="session.VideoPicture" render="Pig" position="103,203" zPosition="20" size="985,561" backgroundColor="transparent" transparent="0" />
+                </screen>'''
         else:
+            # FHD 1920x1080
             self.skin = '''
                 <screen name="UnesiPod" position="center,center" size="1920,1080" title="RSS FEED" flags="wfNoBorder">
                     <widget name="info" position="968,38" zPosition="4" size="870,40" font="Regular;35" backgroundColor="#050c101b" foregroundColor="white" transparent="1" valign="center" />
@@ -201,12 +220,12 @@ class UnesiPod(Screen):
             }, -1
         )
 
-        self["key_red"] = StaticText(_("Close"))
-        self["key_green"] = StaticText(_("Save"))
-        self["key_blue"] = StaticText(_("Keyboard"))
-        self["key_yellow"] = StaticText(_("Update"))
-        self["info"] = StaticText(_("Select"))
-        self["opisi"] = StaticText(_('Setup RSS FEED v.%s' % __version__))
+        self["key_red"] = StaticText(tr("Close"))
+        self["key_green"] = StaticText(tr("Save"))
+        self["key_blue"] = StaticText(tr("Keyboard"))
+        self["key_yellow"] = StaticText(tr("Update"))
+        self["info"] = StaticText(tr("Select"))
+        self["opisi"] = StaticText(tr('Setup RSS FEED v.%s' % __version__))
         self.nazrss = ConfigText(fixed_size=False, visible_width=40)
         self.urlrss = ConfigText(fixed_size=False, visible_width=40)
         if self.edit_name:
@@ -251,7 +270,7 @@ class UnesiPod(Screen):
                 self.new_changelog = remote_changelog
                 self.session.open(
                     MessageBox,
-                    _('New version %s is available\n\nChangelog: %s\n\nPress info_long or yellow_long button to start force updating.') %
+                    tr('New version %s is available\n\nChangelog: %s\n\nPress info_long or yellow_long button to start force updating.') %
                     (self.new_version,
                      self.new_changelog),
                     MessageBox.TYPE_INFO,
@@ -264,14 +283,14 @@ class UnesiPod(Screen):
             self.session.openWithCallback(
                 self.install_update,
                 MessageBox,
-                _("New version %s is available.\n\nChangelog: %s \n\nDo you want to install it now?") %
+                tr("New version %s is available.\n\nChangelog: %s \n\nDo you want to install it now?") %
                 (self.new_version,
                  self.new_changelog),
                 MessageBox.TYPE_YESNO)
         else:
             self.session.open(
                 MessageBox,
-                _("Congrats! You already have the latest version..."),
+                tr("Congrats! You already have the latest version..."),
                 MessageBox.TYPE_INFO,
                 timeout=4)
 
@@ -289,14 +308,14 @@ class UnesiPod(Screen):
             self.session.openWithCallback(
                 self.install_update,
                 MessageBox,
-                _("Do you want to install update ( %s ) now?") %
+                tr("Do you want to install update ( %s ) now?") %
                 remote_date_str,
                 MessageBox.TYPE_YESNO)
         except Exception as e:
             print('Update dev error:', e)
             self.session.open(
                 MessageBox,
-                _("Update check failed!"),
+                tr("Update check failed!"),
                 MessageBox.TYPE_ERROR,
                 timeout=3)
 
@@ -313,7 +332,7 @@ class UnesiPod(Screen):
         else:
             self.session.open(
                 MessageBox,
-                _("Update Aborted!"),
+                tr("Update Aborted!"),
                 MessageBox.TYPE_INFO,
                 timeout=3)
 
@@ -370,9 +389,10 @@ class UnesiPod(Screen):
         self.gotovo()
 
 
+# ----------------------------------------------------------------------
+# MojRSS - Main screen
+# ----------------------------------------------------------------------
 class MojRSS(Screen):
-    """Main screen listing RSS feeds."""
-
     def __init__(self, session):
         self.session = session
         if screen_width == 1280:
@@ -392,7 +412,25 @@ class MojRSS(Screen):
                     </widget>
                     <widget source="session.VideoPicture" render="Pig" position="51,101" zPosition="20" size="492,280" backgroundColor="transparent" transparent="0" />
                 </screen>'''
+        elif screen_width == 2560:
+            self.skin = '''
+                <screen name="MojRSS" position="center,center" size="2560,1440" title="RSS FEED" flags="wfNoBorder">
+                    <widget name="info" position="1290,50" zPosition="4" size="1160,53" font="Regular;47" backgroundColor="#050c101b" foregroundColor="white" transparent="1" valign="center" />
+                    <ePixmap position="250,123" size="667,11" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DD_RSS/images/slider_fhd.png" scale="1" alphatest="blend" />
+                    <ePixmap position="center,center" size="2560,1440" zPosition="-1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DD_RSS/images/RSS_FEED+1.png" scale="1" transparent="1" alphatest="blend" />
+                    <widget name="rsslist" itemHeight="73" font="Regular; 48" position="1227,160" size="1240,1027" scrollbarMode="showOnDemand" zPosition="2" transparent="1" />
+                    <widget name="opisi" font="Regular; 45" position="81,989" size="1031,375" zPosition="2" transparent="1" />
+                    <widget source="key_red" render="Label" position="1279,1359" size="333,60" zPosition="4" font="Regular; 37" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+                    <widget source="key_green" render="Label" position="1563,1359" size="333,60" zPosition="4" font="Regular; 37" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+                    <widget source="key_yellow" render="Label" position="1832,1359" size="333,60" zPosition="4" font="Regular; 37" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+                    <widget source="key_blue" render="Label" position="2112,1360" size="333,60" zPosition="4" font="Regular; 40" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+                    <widget font="Regular; 53" halign="center" position="92,40" render="Label" size="999,93" source="global.CurrentTime" transparent="1">
+                        <convert type="ClockToText">Format:%a %d.%m. %Y | %H:%M</convert>
+                    </widget>
+                    <widget source="session.VideoPicture" render="Pig" position="103,203" zPosition="20" size="985,561" backgroundColor="transparent" transparent="0" />
+                </screen>'''
         else:
+            # FHD
             self.skin = '''
                 <screen name="MojRSS" position="center,center" size="1920,1080" title="RSS FEED" flags="wfNoBorder">
                     <widget name="info" position="968,38" zPosition="4" size="870,40" font="Regular;35" backgroundColor="#050c101b" foregroundColor="white" transparent="1" valign="center" />
@@ -427,11 +465,11 @@ class MojRSS(Screen):
         self.ime = []
         self.put = []
         self.rsslist = []
-        self["key_red"] = StaticText(_("Delete"))
-        self["key_green"] = StaticText(_("Add"))
-        self["key_yellow"] = StaticText(_("Edit"))
-        self["key_blue"] = StaticText(_("Import"))
-        self["info"] = StaticText(_("Select"))
+        self["key_red"] = StaticText(tr("Delete"))
+        self["key_green"] = StaticText(tr("Add"))
+        self["key_yellow"] = StaticText(tr("Edit"))
+        self["key_blue"] = StaticText(tr("Import"))
+        self["info"] = StaticText(tr("Select"))
         self["opisi"] = StaticText(descplug)
         self["rsslist"] = MenuList([])
 
@@ -494,7 +532,7 @@ class MojRSS(Screen):
         else:
             self.session.open(
                 MessageBox,
-                _("No XML file found at /tmp/feeds.xml"),
+                tr("No XML file found at /tmp/feeds.xml"),
                 MessageBox.TYPE_INFO,
                 timeout=5)
 
@@ -516,7 +554,7 @@ class MojRSS(Screen):
                 self.showMenu()
                 self.session.open(
                     MessageBox,
-                    _("Feeds imported successfully"),
+                    tr("Feeds imported successfully"),
                     MessageBox.TYPE_INFO,
                     timeout=3)
             else:
@@ -525,7 +563,7 @@ class MojRSS(Screen):
             print("Import error:", e)
             self.session.open(
                 MessageBox,
-                _("Failed to parse XML file"),
+                tr("Failed to parse XML file"),
                 MessageBox.TYPE_ERROR,
                 timeout=5)
 
@@ -544,118 +582,93 @@ class MojRSS(Screen):
         if selindex is None or selindex >= len(self.put):
             return
         url = self.put[selindex]
+        
+        print("[RSS] Selected URL:", url)  # DEBUG
 
         try:
-            result = subprocess.run(
-                ['wget', '-O', TMP_RSS_FILE, url],
-                timeout=10,
-                capture_output=True,
-                text=True
-            )
-            if result.returncode != 0:
-                self.session.open(
-                    MessageBox,
-                    _("Download failed: {}").format(
-                        result.stderr),
-                    MessageBox.TYPE_ERROR,
-                    timeout=3)
-                return
-            if not os.path.exists(TMP_RSS_FILE) or os.path.getsize(
-                    TMP_RSS_FILE) == 0:
-                self.session.open(
-                    MessageBox,
-                    _("Empty response from server"),
-                    MessageBox.TYPE_ERROR,
-                    timeout=3)
-                return
-        except subprocess.TimeoutExpired:
-            self.session.open(
-                MessageBox,
-                _("Download timeout (10s)"),
-                MessageBox.TYPE_ERROR,
-                timeout=3)
-            return
+            req = Request(url, headers=HEADERS)
+            print("[RSS] Request headers:", req.headers)  # DEBUG
+            response = urlopen(req, timeout=10)
+            content = response.read().decode('utf-8', errors='ignore')
+            print("[RSS] Downloaded %d bytes" % len(content))  # DEBUG
+            with open(TMP_RSS_FILE, 'w', encoding='utf-8') as f:
+                f.write(content)
         except Exception as e:
+            print("[RSS] Download error:", e)  # DEBUG
             self.session.open(
                 MessageBox,
-                _("Error: {}").format(
-                    str(e)),
+                tr("Download failed: {}").format(str(e)),
                 MessageBox.TYPE_ERROR,
                 timeout=3)
             return
 
-        titolo = ''
-        contenuto_completo = ''
         try:
-            with open(TMP_RSS_FILE, 'r') as fp:
-                for riga in fp.read().split('\n'):
-                    riga = riga.strip().replace(
-                        '<![CDATA[', '').replace(']]>', '')
-                    contenuto_completo += riga.strip()
+            tree = ET.parse(TMP_RSS_FILE)
+            root = tree.getroot()
 
-            with open(TMP_LIRSS_FILE, 'w') as fp1:
-                if contenuto_completo:
-                    n0, n1, n2 = trazenje(
-                        'encoding=', '?><', 'title', contenuto_completo)
-                    codifica = uzmitekst(
-                        n0 + 9, n1, contenuto_completo) if n0 > -1 else ''
-                    if n2 > -1:
-                        contenuto_completo = skrati(n2 + 6, contenuto_completo)
+            ns = {
+                'atom': 'http://www.w3.org/2005/Atom',
+                'dc': 'http://purl.org/dc/elements/1.1/',
+                'content': 'http://purl.org/rss/1.0/modules/content/',
+                'slash': 'http://purl.org/rss/1.0/modules/slash/'
+            }
 
-                    n0, n1, n2 = trazenje(
-                        '</title>', '<item>', '', contenuto_completo)
-                    if n0 > -1:
-                        titolo = uzmitekst(0, n0, contenuto_completo)
-                        contenuto_completo = skrati(n1, contenuto_completo)
-                        fp1.write(f'0<DD>{codifica}<DD>{titolo}<DD>nessuno\n')
+            channel = root.find('channel')
+            if channel is None:
+                channel = root
 
-                    elementi = contenuto_completo.split('<item>')[1:]
-                    for elemento in elementi:
-                        n0, n1, n2 = trazenje(
-                            '<title>', '</title>', '', elemento)
-                        titolo_elemento = uzmitekst(
-                            n0 + 7, n1, elemento) if n0 > -1 else 'No title'
-                        n0, n1, n2 = trazenje(
-                            '', '<pubDate>', '</pubDate>', elemento)
-                        data = uzmitekst(
-                            n1 + 9, n2, elemento) if n1 > -1 else 'No date'
-                        n0, n1, n2 = trazenje(
-                            '<description>', '</description>', "alt='' /&gt;", elemento)
-                        immagine = 'nessuna'
-                        if n2 > -1:
-                            n3, n4, n5 = trazenje(
-                                'img src=', '', "alt='' /&gt;", elemento)
-                            immagine = uzmitekst(
-                                n3 + 8, n5 - 1, elemento) if n3 > -1 and n5 > -1 else 'nessuna'
-                        else:
-                            n3, n4, n5 = trazenje(
-                                'src=&quot;', '&lt;br', '&quot; alt=&quot;', elemento)
-                            immagine = uzmitekst(
-                                n3 + 10, n5, elemento) if n3 > -1 and n5 > -1 else 'nessuna'
-                        descrizione = uzmitekst(
-                            n0 + 13,
-                            n1,
-                            elemento).replace(
-                            '&amp;nbsp;',
-                            '')
-                        fp1.write(
-                            f'{titolo_elemento}<DD>{data}<DD>{descrizione}<DD>{immagine}\n')
+            feed_title = channel.findtext('title', 'RSS Feed')
+            feed_title = decodeHtml(feed_title)
+
+            with open(TMP_LIRSS_FILE, 'w', encoding='utf-8') as fp1:
+                fp1.write(f'0<DD>UTF-8<DD>{feed_title}<DD>nessuno\n')
+
+                for item in channel.findall('item'):
+                    title_elem = item.find('title')
+                    title = decodeHtml(title_elem.text) if title_elem is not None and title_elem.text else 'No title'
+
+                    pubdate_elem = item.find('pubDate')
+                    pubdate = decodeHtml(pubdate_elem.text) if pubdate_elem is not None and pubdate_elem.text else 'No date'
+
+                    desc = ''
+                    content_elem = item.find('content:encoded', ns)
+                    if content_elem is not None and content_elem.text:
+                        desc = decodeHtml(content_elem.text)
+                    else:
+                        desc_elem = item.find('description')
+                        if desc_elem is not None and desc_elem.text:
+                            desc = decodeHtml(desc_elem.text)
+
+                    img = 'nessuna'
+                    if desc:
+                        img_match = re.search(r'src=["\']([^"\']+)["\']', desc, re.I)
+                        if img_match:
+                            img = img_match.group(1)
+
+                    fp1.write(f'{title}<DD>{pubdate}<DD>{desc}<DD>{img}\n')
+
             self.session.open(PregledRSS)
+
+        except ET.ParseError as e:
+            print('XML Parse error:', e)
+            self.session.open(
+                MessageBox,
+                tr("Invalid XML feed: {}").format(str(e)),
+                MessageBox.TYPE_ERROR,
+                timeout=5)
         except Exception as e:
             print('Parse error:', e)
             self.session.open(
                 MessageBox,
-                _("Failed to parse RSS feed"),
+                tr("Failed to parse RSS feed: {}").format(str(e)),
                 MessageBox.TYPE_ERROR,
                 timeout=5)
 
 
-# ---------------------------
-# PregledRSS with async translation & cache
-# ---------------------------
+# ----------------------------------------------------------------------
+# PregledRSS - Preview RSS items
+# ----------------------------------------------------------------------
 class PregledRSS(Screen):
-    """Preview RSS items list."""
-
     def __init__(self, session):
         self.session = session
         self.current_index = 0
@@ -679,7 +692,21 @@ class PregledRSS(Screen):
                     </widget>
                     <widget source="session.VideoPicture" render="Pig" position="51,101" zPosition="20" size="492,280" backgroundColor="transparent" transparent="0" />
                 </screen>'''
+        elif screen_width == 2560:
+            self.skin = '''
+                <screen name="PregledRSS" position="center,center" size="2560,1440" title="RSS FEED">
+                    <widget name="info" position="1290,50" zPosition="2" size="1160,53" font="Regular;47" backgroundColor="#050c101b" foregroundColor="white" transparent="1" valign="center" />
+                    <ePixmap position="250,123" size="667,11" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DD_RSS/images/slider_fhd.png" scale="1" alphatest="blend" />
+                    <ePixmap position="center,center" size="2560,1440" zPosition="-1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DD_RSS/images/RSS_FEED+1.png" scale="1" transparent="1" alphatest="blend" />
+                    <widget name="rsspreg" itemHeight="73" font="Regular; 45" position="1227,160" size="1240,1027" scrollbarMode="showOnDemand" zPosition="2" transparent="1" />
+                    <widget name="opisi" font="Regular; 45" position="81,989" size="1031,375" zPosition="2" transparent="1" />
+                    <widget font="Regular; 53" halign="center" position="92,40" render="Label" size="999,93" source="global.CurrentTime" transparent="1">
+                        <convert type="ClockToText">Format:%a %d.%m. %Y | %H:%M</convert>
+                    </widget>
+                    <widget source="session.VideoPicture" render="Pig" position="103,203" zPosition="20" size="985,561" backgroundColor="transparent" transparent="0" />
+                </screen>'''
         else:
+            # FHD
             self.skin = '''
                 <screen name="PregledRSS" position="center,center" size="1920,1080" title="RSS FEED">
                     <widget name="info" position="968,38" zPosition="2" size="870,40" font="Regular;35" backgroundColor="#050c101b" foregroundColor="white" transparent="1" valign="center" />
@@ -711,7 +738,7 @@ class PregledRSS(Screen):
                 'cancel': self.izlaz
             }, -2
         )
-        self['info'] = StaticText(_('Select'))
+        self['info'] = StaticText(tr('Select'))
         self['opisi'] = ScrollLabel()
         self['rsspreg'] = MenuList([])
 
@@ -799,9 +826,9 @@ class PregledRSS(Screen):
         self.close()
 
 
-# ---------------------------
-# CijeliTekst with async translation
-# ---------------------------
+# ----------------------------------------------------------------------
+# CijeliTekst - Full article view
+# ----------------------------------------------------------------------
 class CijeliTekst(Screen):
     def __init__(self, session, title, description):
         if screen_width == 1280:
@@ -816,7 +843,20 @@ class CijeliTekst(Screen):
                     </widget>
                     <widget source="session.VideoPicture" render="Pig" position="51,101" zPosition="20" size="492,280" backgroundColor="transparent" transparent="0" />
                 </screen>'''
+        elif screen_width == 2560:
+            self.skin = '''
+                <screen name="CijeliTekst" position="center,center" size="2560,1440" title="RSS FEED">
+                    <widget name="info" position="1290,50" zPosition="4" size="1160,53" font="Regular;47" backgroundColor="#050c101b" foregroundColor="white" transparent="1" valign="center" />
+                    <ePixmap position="250,123" size="667,11" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DD_RSS/images/slider_fhd.png" scale="1" alphatest="blend" />
+                    <ePixmap position="center,center" size="2560,1440" zPosition="-1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DD_RSS/images/RSS_FEED+1.png" scale="1" transparent="1" alphatest="blend" />
+                    <widget name="opisi" font="Regular; 48" position="1227,160" size="1240,1027" zPosition="2" transparent="1" />
+                    <widget font="Regular; 53" halign="center" position="92,40" render="Label" size="999,93" source="global.CurrentTime" transparent="1">
+                        <convert type="ClockToText">Format:%a %d.%m. %Y | %H:%M</convert>
+                    </widget>
+                    <widget source="session.VideoPicture" render="Pig" position="103,203" zPosition="20" size="985,561" backgroundColor="transparent" transparent="0" />
+                </screen>'''
         else:
+            # FHD
             self.skin = '''
                 <screen name="CijeliTekst" position="center,center" size="1920,1080" title="RSS FEED">
                     <widget name="info" position="968,38" zPosition="4" size="870,40" font="Regular;35" backgroundColor="#050c101b" foregroundColor="white" transparent="1" valign="center" />
@@ -833,7 +873,7 @@ class CijeliTekst(Screen):
         self.title = title
         self.description = description
         self['opisi'] = ScrollLabel()
-        self['info'] = StaticText(_('Select'))
+        self['info'] = StaticText(tr('Select'))
         self["shortcuts"] = ActionMap(["WizardActions", "SetupActions"], {
             "up": self.pageUp,
             "down": self.pageDown,
@@ -861,6 +901,9 @@ class CijeliTekst(Screen):
         self['opisi'].pageDown()
 
 
+# ----------------------------------------------------------------------
+# Plugin entry points
+# ----------------------------------------------------------------------
 def main(session, **kwargs):
     session.open(MojRSS)
 
