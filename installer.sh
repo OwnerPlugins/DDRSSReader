@@ -43,6 +43,7 @@ detect_os
 
 # Cleanup before starting
 cleanup
+mkdir -p "$TMPPATH"
 mkdir -p "$PLUGINPATH"
 
 # Install wget if missing
