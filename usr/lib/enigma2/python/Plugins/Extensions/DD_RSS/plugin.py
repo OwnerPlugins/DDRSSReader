@@ -582,7 +582,7 @@ class MojRSS(Screen):
         if selindex is None or selindex >= len(self.put):
             return
         url = self.put[selindex]
-        
+
         print("[RSS] Selected URL:", url)  # DEBUG
 
         try:
@@ -625,10 +625,12 @@ class MojRSS(Screen):
 
                 for item in channel.findall('item'):
                     title_elem = item.find('title')
-                    title = decodeHtml(title_elem.text) if title_elem is not None and title_elem.text else 'No title'
+                    title = decodeHtml(
+                        title_elem.text) if title_elem is not None and title_elem.text else 'No title'
 
                     pubdate_elem = item.find('pubDate')
-                    pubdate = decodeHtml(pubdate_elem.text) if pubdate_elem is not None and pubdate_elem.text else 'No date'
+                    pubdate = decodeHtml(
+                        pubdate_elem.text) if pubdate_elem is not None and pubdate_elem.text else 'No date'
 
                     desc = ''
                     content_elem = item.find('content:encoded', ns)
@@ -641,7 +643,8 @@ class MojRSS(Screen):
 
                     img = 'nessuna'
                     if desc:
-                        img_match = re.search(r'src=["\']([^"\']+)["\']', desc, re.I)
+                        img_match = re.search(
+                            r'src=["\']([^"\']+)["\']', desc, re.I)
                         if img_match:
                             img = img_match.group(1)
 
